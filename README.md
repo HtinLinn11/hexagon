@@ -1,10 +1,10 @@
-# Automated Email Response System (AI-Driven Response Generation)
+# Automated Ticket Response System for a University (AI-Driven Response Generation)
 
 ## Overview
-The **Automated Email Response System** leverages advanced AI, specifically Google's **Gemini API**, to generate automated email responses. This system processes incoming emails, analyzes their content, and generates relevant replies using natural language processing (NLP) capabilities. The system ensures a seamless blend of AI-generated responses and human oversight for quality control, improving efficiency in customer service operations.
+The **Automated Ticket Response System** leverages advanced AI, specifically Google's **Gemini API**, to generate automated ticket responses. This system processes opened tickets, analyzes their content, and generates relevant replies using natural language processing (NLP) capabilities. The system ensures a seamless blend of AI-generated responses and human oversight for quality control, improving efficiency in customer service operations.
 
 ## Features
-- **Automated Email Responses**: Generate AI-driven replies to incoming emails.
+- **Automated Responses**: Generate AI-driven replies to opened tickets.
 - **AI Integration**: Powered by Google’s Gemini API for natural language processing.
 - **Customer Service Oversight**: Human customer service representatives can review and refine AI-generated responses for accuracy and quality.
 - **Database Management**: Stores email records and responses for future analysis and auditing.
@@ -14,12 +14,12 @@ The **Automated Email Response System** leverages advanced AI, specifically Goog
 ## System Architecture
 The system is designed with several key components:
 
-- **User Interface (UI)**: Allows users to compose and send emails, triggering the response generation process.
-- **GPT API Engine**: Analyzes incoming emails using Google’s Gemini API and generates a response.
+- **User Interface (UI)**: Allows users to compose and open tickets, triggering the response generation process.
+- **GPT API Engine**: Analyzes opened tickets using Google’s Gemini API and generates a response.
 - **Database**: Stores both original emails and AI-generated responses for reference and analysis.
 
 ### System Workflow
-1. **User submits email**: The user interacts with the UI to send an email.
+1. **User opens a ticket**: The user interacts with the UI to send a ticket.
 2. **AI generates response**: The email content is forwarded to the GPT API for processing.
 3. **Customer service review**: A human representative reviews and approves or refines the response.
 4. **Email sent**: Once approved, the response is sent to the user and stored in the database for record-keeping.
